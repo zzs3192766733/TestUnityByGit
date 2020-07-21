@@ -17,4 +17,8 @@ public class Zzs : MonoBehaviour
     {
         Zzs.wcnm = wcnm;
     }
+    private int AAA()
+    {
+        return 1;
+    }
 }
