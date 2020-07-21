@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Zzs : MonoBehaviour
 {
-    public void FindSbWy(GameObject gameObject)
+    public void FindSbWy()
     {
-        gameObject.transform.position = this.transform.position;
+        this.transform.position = this.transform.position + new Vector3(1, 1, 1);
+    }
+    public void Zzsssb(string str)
+    {
+        Debug.Log("wcnm");
     }
 }
